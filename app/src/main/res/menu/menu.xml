@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/norwegian"
+        android:title="Norwegian"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/icelandic"
+        android:title="Icelandic"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/welsh"
+        android:title="Welsh"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/russian"
+        android:title="Russian"
+        android:checkable="true"/>
+</menu>
