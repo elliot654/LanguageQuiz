@@ -28,12 +28,20 @@ import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
     private static final String PREFERENCES = "Preferences";
-    private final Map<Integer, String> languageMap = Map.of(
-            R.id.norwegian, "Norwegian",
-            R.id.icelandic, "Icelandic",
-            R.id.welsh, "Welsh",
-            R.id.russian, "Russian"
-    );
+    private final Map<Integer, String> languageMap = Map.ofEntries(
+            Map.entry(R.id.norwegian, "Norwegian"),
+            Map.entry(R.id.icelandic, "Icelandic"),
+            Map.entry(R.id.welsh, "Welsh"),
+            Map.entry(R.id.russian, "Russian"),
+            Map.entry(R.id.danish, "Danish"),
+            Map.entry(R.id.french, "French"),
+            Map.entry(R.id.german, "German"),
+            Map.entry(R.id.italian, "Italian"),
+            Map.entry(R.id.polish, "Polish"),
+            Map.entry(R.id.portuguese, "Portuguese"),
+            Map.entry(R.id.spanish, "Spanish"),
+            Map.entry(R.id.swedish, "Swedish")
+            );
     private Menu menuRef;
     Map<String, String> dictionary;
     ArrayList<String> english;

@@ -16,4 +16,36 @@
         android:id="@+id/russian"
         android:title="Russian"
         android:checkable="true"/>
+    <item
+        android:id="@+id/danish"
+        android:title="Danish"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/french"
+        android:title="French"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/german"
+        android:title="German"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/italian"
+        android:title="Italian"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/polish"
+        android:title="Polish"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/portuguese"
+        android:title="Portuguese"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/spanish"
+        android:title="Spanish"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/swedish"
+        android:title="Swedish"
+        android:checkable="true"/>
 </menu>
